@@ -1,0 +1,19 @@
+$primary-color: red;
+$second-color: blue;
+
+h1 {
+  background-color: $primary-color;
+  &:hover {
+    color: $second-color;
+    background-color: $second-color;
+
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
