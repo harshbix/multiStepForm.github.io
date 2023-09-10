@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import Steps from "./steps";
 
-const layout = () => {
-    return ( 
-        <div>
-            <h1 className="text-center">Hello world</h1>
+const Layout = () => {
+  return (
+    <div className="layout">
+      <div className="p-2 row">
+        <div className="col-sm-4">
+          <Steps />
         </div>
-     );
-}
- 
-export default layout;
+        <div className="col-sm-auto">
+
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Layout;
