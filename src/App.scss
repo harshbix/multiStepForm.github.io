@@ -1,11 +1,22 @@
-
-
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-bold";
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-medium";
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+}
 ol {
   list-style: none;
   counter-reset: item;
   li {
     list-style-type: none;
-    span{
+    font-family: "Ubuntu-bold";
+    span {
       border-radius: 50%;
       border: 2px solid white;
       display: grid;
