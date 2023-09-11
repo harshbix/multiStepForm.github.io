@@ -1,17 +1,17 @@
+
+
 ol {
   list-style: none;
   counter-reset: item;
   li {
-    counter-increment: item;
-    margin-bottom: 5px;
-    &:before {
-      margin-right: 10px;
-      content: counter(item);
-      border: 2px solid black;
-      border-radius: 100%;
-      width: 1.5em;
-      text-align: center;
-      display: inline-block;
+    list-style-type: none;
+    span{
+      border-radius: 50%;
+      border: 2px solid white;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      height: 35px;
     }
   }
 }
