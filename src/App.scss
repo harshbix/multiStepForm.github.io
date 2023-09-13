@@ -10,27 +10,30 @@
   font-family: "Ubuntu-medium";
   src: url("./assets/fonts/Ubuntu-Medium.ttf");
 }
-ol {
-  list-style: none;
-  counter-reset: item;
-  li {
-    list-style-type: none;
-    font-family: "Ubuntu-bold";
-    span {
-      border-radius: 50%;
-      border: 2px solid white;
-      display: grid;
-      justify-content: center;
-      align-items: center;
-      height: 35px;
+
+.steps {
+  background-color: hsl(243, 100%, 62%);
+  ol {
+    list-style: none;
+    counter-reset: item;
+    li {
+      list-style-type: none;
+      span {
+        border-radius: 50%;
+        border: 2px solid white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+      }
     }
   }
-}
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  a {
-    color: hsl(228, 45%, 44%);
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    a {
+      color: hsl(228, 45%, 44%);
+    }
   }
 }

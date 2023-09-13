@@ -13,7 +13,7 @@ const Steps = () => {
     },
     {
       step: "step 3",
-      detail: "add ons",
+      detail: "add-ons",
     },
     {
       step: "step 4",
@@ -23,7 +23,7 @@ const Steps = () => {
   delete steps[0];
 
   return (
-    <div className="p-3 rounded bg-success">
+    <div className="p-3 rounded steps">
       <ol>
         {steps.map((step, count) => (
           <li className="row">
