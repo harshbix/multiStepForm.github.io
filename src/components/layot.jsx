@@ -8,8 +8,8 @@ const Layout = () => {
         <div className="col-sm-3">
           <Steps />
         </div>
-        <div className="col-sm-auto">
-
+        <div className="col-sm-9">
+          <h1 className="bg-success">Hello World</h1>
         </div>
       </div>
     </div>
